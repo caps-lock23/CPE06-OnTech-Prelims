@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Alstoria;
+    src: url(./font/alstoria/Alstoria.ttf) format("truetype");
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#Contrivance {
+    font-size: 3em;
+    font-family: Alstoria;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0;
+}
+
+header {
+    background-color: #f7f5e8;
+    padding-bottom: 3em;
+}
+
+.tb>p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.7em;
+    word-spacing: 0.2em;
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+ul {
+    gap: 1em;
+    margin-right: 3em;
+}
+
+blockquote {
+    background-color: #e5e7eb;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: #002E25;
+}
+
+mark {
+    background-image: linear-gradient(to right, #d8ba67, #e9cb78);
+    border-radius: 20px 0px;
+    margin: 10px;
+    padding: 10px;
+}
+
+h2{
+    margin: 20px;
+    font-family: Alstoria;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+}
+
+a:hover {
+    background-color: black;
+    color: azure;
+}
+
+.af{
+    font-weight: bold;
+    color: azure;
+}
+
+li {
+    list-style-type: none;
+}
+
+.addr, h3 {
+    color: white;
+}
+
+blockquote {
+    background-color: #002E25;
+    color: white;
+}
+
+q {
+    font-size: xx-large;
+}
+
+cite {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+marquee {
+    background-color: black;
+    color: azure;
+    font-size: 2em;
+    padding: 5px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.product:hover {
+    box-shadow: rgb(218, 165, 32) 5px 5px, rgb(218, 165, 32, 0.3) 10px 10px, rgb(218, 165, 32, 0.2) 15px 15px, rgb(218, 165, 32, 0.1)20px 20px, rgb(218, 165, 32, 0.05) 25px 25px;
+}
+
+button:hover {
+    border-radius: 5px;
+    color: goldenrod;
+    border-color: goldenrod;
+    background-color: azure;
+    padding: 25px;
+}
+
+button{
+    border-radius: 5px;
+    color: azure;
+    border-color: azure;
+    background-color: goldenrod;
+    padding: 25px;
+}
